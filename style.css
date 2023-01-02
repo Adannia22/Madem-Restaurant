@@ -64,8 +64,28 @@ h6 {
     justify-content: space-around;
     list-style: none;
 }
+
 #laptop button{
     display: none;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    font-size: 35px;
+    margin-left: 20px;
+  
+
+}
+#close{
+    display: flex;
+    justify-content: flex-end;
+}
+#close button{
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    font-size: 30px;
 }
 li{
     font-size: 18px;
@@ -243,6 +263,25 @@ h2{
     }
     #caption2,#caption3,#caption4,#caption5{
         height: 70vh;
+    }#info{
+        width: 100vw;
+    }
+    #info ul{
+       padding: 0;
+       margin: 0; 
+    }
+    #copyright{
+        padding: 0;
+    }
+    #info{
+        width: 100vw;
+    }
+    #info ul{
+       padding: 0;
+       margin: 0; 
+    }
+    #copyright{
+        padding: 0;
     }
 }
 @media screen and (min-width: 1000px) {
